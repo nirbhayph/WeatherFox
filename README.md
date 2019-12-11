@@ -12,6 +12,8 @@
 
 - Hosted through GitHub pages - Refer the link: https://github.com/gitname/react-gh-pages
 
+- Switch to the sourcecode branch to view the code. 
+
 ## Instructions to Setup the Application
 
 - git clone --single-branch --branch sourcecode https://github.com/nirbhayph/weatherfox.git
