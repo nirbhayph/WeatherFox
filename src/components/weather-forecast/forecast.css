@@ -1,0 +1,18 @@
+/* control buttons css */
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.controlButtons{
+  background-color: #413EA0;
+  border: 1px solid #413EA0;
+}
+
+/* control buttons css ends here */
+
+/* separator used in card */
+hr{
+  background-color: grey;
+}

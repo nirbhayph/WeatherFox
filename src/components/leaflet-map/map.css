@@ -1,0 +1,20 @@
+body {
+  padding-bottom: 30px;
+}
+h1, h2, p {
+  font-family: sans-serif;
+  text-align: center;
+}
+.leaflet-container {
+  border: 2px SOLID #413EA0;
+  border-radius: 5px;
+  height: 200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* for grayscale map layer */
+.leaflet-tile-pane {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
