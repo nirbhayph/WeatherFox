@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e09c23f8e7ba3285de907335780c2336",
+    "revision": "5619d9a894b03130d96e0473d0c391b3",
     "url": "/weatherfox/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weatherfox/static/css/2.164784d0.chunk.css"
   },
   {
-    "revision": "b3652d64770f56763f43",
-    "url": "/weatherfox/static/css/main.1cbb1509.chunk.css"
+    "revision": "aa85e98bc9cbdee3eb74",
+    "url": "/weatherfox/static/css/main.c5169a54.chunk.css"
   },
   {
     "revision": "6bf291f6f6a72ac3a1be",
     "url": "/weatherfox/static/js/2.b084ff04.chunk.js"
   },
   {
-    "revision": "b3652d64770f56763f43",
-    "url": "/weatherfox/static/js/main.73330037.chunk.js"
+    "revision": "aa85e98bc9cbdee3eb74",
+    "url": "/weatherfox/static/js/main.04012074.chunk.js"
   },
   {
     "revision": "cb599e910550e310c469",
