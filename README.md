@@ -21,7 +21,7 @@
 - If you are new to react, you may first go to https://github.com/facebook/create-react-app to learn more. 
 - Now change your directory to the cloned repository. 
 
-If you want to try it out in devloper mode 
+If you want to try it out in developer mode 
 ``` 
 npm install 
 npm start 
