@@ -30,6 +30,7 @@ npm start
 If you wish to serve the app 
 ``` 
 npm install
+npm run build
 npm install -g serve
 serve -s build
 
