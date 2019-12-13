@@ -23,7 +23,8 @@ const styles = {
       // Overwrittes the different states of border
       borderColor: state.isFocused ? "#343940" : "#343940"
     }
-  })
+  }),
+  menu: provided => ({ ...provided, zIndex: 9999 })
 };
 
 class SearchSelect extends React.Component {
@@ -57,7 +58,6 @@ class SearchSelect extends React.Component {
           </small>
         </label>
         <AsyncPaginate
-          menuPlacement="top"
           value={this.state.value}
           loadOptions={loadOptions}
           closeMenuOnSelect={true}

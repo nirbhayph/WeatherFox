@@ -19,7 +19,8 @@ const styles = {
       // Overwrittes the different states of border
       borderColor: state.isFocused ? "#343940" : "#343940"
     }
-  })
+  }),
+  menu: provided => ({ ...provided, zIndex: 9999 })
 };
 
 let defaultValue = "Loading ...";
@@ -90,7 +91,6 @@ class TimeSlotSelect extends React.Component {
           </small>
         </label>
         <Select
-          menuPlacement="top"
           styles={styles}
           style={{ zIndex: 9999 }}
           options={this.getOptions()}

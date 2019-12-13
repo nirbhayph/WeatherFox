@@ -107,8 +107,8 @@ class WeatherDataPlot extends PureComponent {
           @
           <Moment format="h:mm A" tz={this.props.timeZone}>
             {time + " GMT"}
-          </Moment>{" "}
-          Local Time
+          </Moment>
+          &nbsp;Local Time
         </h4>
       </div>
     );

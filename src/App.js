@@ -132,22 +132,22 @@ class App extends React.Component {
               </Row>
             </Col>
             <Col sm={6}>
-              <Row style={{ position: "relative", marginTop: "60px" }}>
+            <Row style={{ position: "relative", marginTop: "60px" }}>
+              {this.state.showData ? (
+                <LeafletMap
+                  lat={this.state.lat}
+                  lng={this.state.lng}
+                  popupMessage={this.state.cityName}
+                  zoom={13}
+                />
+              ) : null}
+            </Row>
+              <Row style={{ position: "relative", marginTop: "5px" }}>
                 {this.state.showData ? (
                   <WeatherDataPlot
                     timeSlot={this.state.timeSlot}
                     timeZone={this.state.timeZone}
                     weatherData={this.state.weatherData}
-                  />
-                ) : null}
-              </Row>
-              <Row>
-                {this.state.showData ? (
-                  <LeafletMap
-                    lat={this.state.lat}
-                    lng={this.state.lng}
-                    popupMessage={this.state.cityName}
-                    zoom={13}
                   />
                 ) : null}
               </Row>
